@@ -19,6 +19,14 @@
     font-weight: 300;
 }
 
+html, body{
+    min-height: 100vh;|
+}
+
+body{
+    background-color: whitesmoke;
+}
+
 header{
     position: relative;
     height: 400px;
@@ -59,35 +67,36 @@ nav>a:hover{
 }
 
 section.normal{
-    height: 100vh;
-    background-color: white;
+    background-color: whitesmoke;
     color: black;
+    font-size: 4vw;
 }
 
 section.imagem{
-    height: 100vh;
+
     background-color: rgba(0, 0, 0, 0.402);
     color: white;
+    
 }
 
 
 
 section#quemsomos>h1{
     text-align: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
     font-family: var(--fonttitulos);
-    font-size: 7vw;
+    font-size: 5.5vw;
     color: var(--cor005);
 }
 
 section#quemsomos>p{
-    max-width: 900vh;
     text-align: justify;
     margin: auto;
-    padding-left: 50px;
-    padding-right: 50px;
-    
+    padding-left: 5vw;
+    padding-right: 5vw;
+    color: var(--cor004);
+    font-size: 2.5vw;
     
 }
 
@@ -95,20 +104,28 @@ section#quemsomos>h3{
     text-align: center;
     padding-top: 100px;
     font-family: var(--fonttitulos);
-    font-size: 2.5em;
+    font-size: 5.5vw;
     color: var(--cor005);
+}
+
+section#aetimg{
+    background-image: url('https://agendor-blog-uploads.s3.sa-east-1.amazonaws.com/2018/03/15112351/estrategia-de-crescimento-de-uma-empresa1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 section#aetimg>p{
 
-    display: inline-block;
-    background-color: rgba(0, 0, 0, 0.249);
+    display: inline-flex;
+    background-color: #34382faf;
     padding-left: 4px;
     text-shadow: 1px 1px 0px black;
     width: 600px;
-    margin-top: 150px;
-    margin-left: 50px;
+    margin-top: 20vw;
+    margin-left: 5vw;
     padding: 5px;
+    font-size: 4vw;
 
 
 }
