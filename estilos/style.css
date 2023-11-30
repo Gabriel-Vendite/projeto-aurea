@@ -59,37 +59,35 @@ nav>a:hover{
 }
 
 section.normal{
-    height: 1000px;
+    height: 100vh;
     background-color: white;
     color: black;
 }
 
 section.imagem{
-    height: 700px;
+    height: 100vh;
     background-color: rgba(0, 0, 0, 0.402);
     color: white;
 }
 
-section#quemsomos{
-    height: 600px;
-}
+
 
 section#quemsomos>h1{
     text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
     font-family: var(--fonttitulos);
-    font-size: 2.5em;
+    font-size: 7vw;
     color: var(--cor005);
 }
 
 section#quemsomos>p{
-    max-width: 900px;
+    max-width: 900vh;
     text-align: justify;
     margin: auto;
-    padding-left: 95px;
-    padding-right: 95px;
-    font-size: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    
     
 }
 
