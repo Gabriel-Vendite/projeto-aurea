@@ -20,7 +20,7 @@
 }
 
 html, body{
-    min-height: 100vh;|
+    min-height: 100vh;
 }
 
 body{
@@ -79,8 +79,6 @@ section.imagem{
     
 }
 
-
-
 section#quemsomos>h1{
     text-align: center;
     margin-top: 5vh;
@@ -96,7 +94,7 @@ section#quemsomos>p{
     padding-left: 5vw;
     padding-right: 5vw;
     color: var(--cor004);
-    font-size: 2.5vw;
+    font-size: 3vw;
     
 }
 
