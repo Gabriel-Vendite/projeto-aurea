@@ -69,13 +69,14 @@ nav>a:hover{
 section.normal{
     background-color: whitesmoke;
     color: black;
-    font-size: 4vw;
+    font-size: 3vw;
 }
 
 section.imagem{
 
     background-color: rgba(0, 0, 0, 0.402);
     color: white;
+    font-size: 3vw;
     
 }
 
@@ -114,16 +115,11 @@ section#aetimg{
 }
 
 section#aetimg>p{
-
-    display: inline-flex;
-    background-color: #34382faf;
-    padding-left: 4px;
+    display: inline-block;
+    background-color: #34382faa;
+    max-width: 1000px;
     text-shadow: 1px 1px 0px black;
-    width: 600px;
-    margin-top: 20vw;
-    margin-left: 5vw;
-    padding: 5px;
-    font-size: 4vw;
-
+    padding: 1em;
+    margin: 5vw 15vw 5vw 5vw;
 
 }
