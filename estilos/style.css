@@ -117,9 +117,149 @@ section#aetimg{
 section#aetimg>p{
     display: inline-block;
     background-color: #34382faa;
-    max-width: 1000px;
+    max-width: 700px;
     text-shadow: 1px 1px 0px black;
     padding: 1em;
     margin: 5vw 15vw 5vw 5vw;
 
+}
+
+section#aep>h3{
+    font-size: 5.5vw;
+    font-family: var(--fonttitulos);
+    text-align: center;
+    padding-top: 100px;
+    color: var(--cor005);
+}
+
+div.aepimg{
+    width: 70vw;
+    height: 50vh;
+    background-image: url("https://www.pontotel.com.br/wp-content/uploads/2022/05/imagem-corporativa-o-que-e-imagem-corporativa.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 70px;
+    border: 2px solid var(--cor004);
+    border-radius: 10px;
+}
+
+section#aep>p{
+    text-align: justify;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    color: var(--cor004);
+    font-size: 3vw;
+}
+
+section#nrimg{
+    background-image: url('https://agendor-blog-uploads.s3.sa-east-1.amazonaws.com/2018/03/15112351/estrategia-de-crescimento-de-uma-empresa1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.imagem#nrimg>p{
+    display: inline-block;
+    background-color: #34382faa;
+    max-width: 700px;
+    text-shadow: 1px 1px 0px black;
+    padding: 1vw;
+    margin: 5vw 15vw 5vw 5vw;
+}
+
+section.normal#palestras>h3{
+    font-size: 5.5vw;
+    font-family: var(--fonttitulos);
+    text-align: center;
+    padding-top: 100px;
+    color: var(--cor005);
+}
+
+div.palestrasimg{
+    width: 70vw;
+    height: 50vh;
+    background-image: url("https://www.pontotel.com.br/wp-content/uploads/2022/05/imagem-corporativa-o-que-e-imagem-corporativa.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 70px;
+    border: 2px solid var(--cor004);
+    border-radius: 10px;
+}
+section.normal#palestras>p{
+    text-align: justify;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    color: var(--cor004);
+    font-size: 3vw;
+}
+section.imagem#gestaoimg{
+    background-image: url('https://agendor-blog-uploads.s3.sa-east-1.amazonaws.com/2018/03/15112351/estrategia-de-crescimento-de-uma-empresa1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+section.imagem#gestaoimg>p{
+    display: inline-block;
+    background-color: #34382faa;
+    max-width: 700px;
+    text-shadow: 1px 1px 0px black;
+    padding: 1vw;
+    margin: 5vw 15vw 5vw 5vw;
+}
+
+section.normal#ginastica>h3{
+    font-size: 5.5vw;
+    font-family: var(--fonttitulos);
+    text-align: center;
+    padding-top: 100px;
+    color: var(--cor005);
+}
+
+div.ginasticaimg{
+    width: 70vw;
+    height: 50vh;
+    background-image: url("https://www.pontotel.com.br/wp-content/uploads/2022/05/imagem-corporativa-o-que-e-imagem-corporativa.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 70px;
+    border: 2px solid var(--cor004);
+    border-radius: 10px;
+}
+
+section.normal#ginastica>p{
+    text-align: justify;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    color: var(--cor004);
+    font-size: 3vw;
+}
+section.imagem#quickimg{
+    background-image: url('https://agendor-blog-uploads.s3.sa-east-1.amazonaws.com/2018/03/15112351/estrategia-de-crescimento-de-uma-empresa1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.imagem#quickimg>p{
+    display: inline-block;
+    background-color: #34382faa;
+    max-width: 700px;
+    text-shadow: 1px 1px 0px black;
+    padding: 1vw;
+    margin: 5vw 15vw 5vw 5vw;
+}
+
+footer{
+    background-color:var(--cor004);
+    color: whitesmoke;
+    height: 10vh;
 }
